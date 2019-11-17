@@ -38,6 +38,18 @@
 
 
 
+    <dependency>
+        <groupId>org.testng</groupId>
+        <artifactId>testng</artifactId>
+        <version>7.0.0</version>
+        <scope>test</scope>
+    </dependency>
+
+
+
+
+
+
 </dependencies>
 
 
