@@ -23,6 +23,7 @@ public class SelectClassTest {
         //create Select object by passing the element as a constructor
         //Select class , i create constructor to reach methods by "stateList."
         Select stateList=new Select(dropdownElement);
+          //Select stateList=new Select(driver.findElement(By.id("state"));
 
         //getOptions---->>>>returns all the available options from the dropdownList
        List<WebElement> options = stateList.getOptions();
