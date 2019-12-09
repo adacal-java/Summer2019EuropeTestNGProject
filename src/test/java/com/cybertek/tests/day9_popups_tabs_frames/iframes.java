@@ -12,6 +12,7 @@ public class iframes {
     WebDriver driver;
     @BeforeMethod
     public void setUpMethod(){
+
         driver = WebDriverFactory.getDriver("chrome");
     }
 

@@ -47,11 +47,13 @@ public class PopupsAndAlerts {
         //clicking ok in the alert
         alert.accept();
 
+        //click js confirms
         driver.findElement(By.xpath("//button[2]")).click();
 
-        //
+        //cancel alert
         alert.dismiss();
 
+        //click js prompt
         driver.findElement(By.xpath("//button[3]")).click();
 
         //send some keys
